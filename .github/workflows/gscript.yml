@@ -28,7 +28,7 @@ jobs: # The jobs that run in this workflow
            Thanks for opening this issue! We'll take a look as soon as possible.
 
 # Comment on when an issue is closed
-on:
+on: issues_closed
   issues:
     types: [closed]
 
