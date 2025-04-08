@@ -33,7 +33,7 @@ jobs:
           body: |
             Thanks for opening this issue! We'll take a look as soon as possible.
 
-  comment_on_closed_issue:
+  comment_on_closed_issue: # Lab 3: Step 2 part 1
     runs-on: ubuntu-latest
     steps:
       - name: Comment when issue is closed
@@ -47,7 +47,7 @@ jobs:
               body: 'The issue is now resolved.'
             })
 
-  welcome_pr:
+  welcome_pr:  # Lab 3: Step 2 part 2
     runs-on: ubuntu-latest
     steps:
       - name: Welcome new contributor on PR
